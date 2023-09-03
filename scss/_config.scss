@@ -1,10 +1,11 @@
 // Variables
 $website-width: 1280px;
-$main-color: #FFBC00;
+$main-color: #FF6B35;
 $light-color: #e1e1e5;
-$dark-color: #333;
-$medium-color: #ccc;
-$bg-image: url('../img/greenunsplash.jpg');
+$dark-color: #282828;
+$medium-color: #D3D3D3;
+$highlight-color:#1C7C54;
+$bg-image: url('../img/abstract.jpg');
 
 // Set Text Color
 @function set-text-color($color) {
@@ -12,5 +13,5 @@ $bg-image: url('../img/greenunsplash.jpg');
     @return #000;
   }@else{
     @return #fff;
-  }
+  } 
 }

@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.6;
   background: #e1e1e5;
 }
@@ -55,14 +55,14 @@ img{
 
   a{
     text-decoration: none;
-    color: #e1e1e5;
+    color: $light-color;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s;
 
     &:hover{
-      border-color: $medium-color;
+      border-color: $highlight-color;
     }
 
     &.current{
@@ -83,6 +83,7 @@ img{
     .header-content{
       text-align: center;
       padding-top:20%;
+      color: $light-color;
 
       h1{
         font-size: 4rem;
@@ -185,13 +186,13 @@ img{
 
         &:hover{
           background: $main-color;
-          color: set-text-color($dark-color);
+          color: set-text-color($light-color);
           width: 90px;
           height: 90px;
           line-height: 90px;
 
           .process-step{
-            background: $dark-color;
+            background: $light-color;
           }
         }
       }
@@ -254,7 +255,7 @@ img{
         height: 100%;
         color: #fff;
         text-align: center;
-        background-color: $main-color;
+        background-color: $highlight-color;
       }
     }
   }
@@ -267,7 +268,7 @@ img{
       grid-gap: 2rem;
 
       img {
-        width: 70%;
+        width: 50%;
       }
     }
   }
@@ -381,6 +382,7 @@ img{
       line-height: 20px;
       text-align: center;
       padding: 0.5rem;
+      color: #e1e1e5;
 
       &:hover{
         background: $main-color;
